@@ -197,11 +197,64 @@
         dolores natus beatae nam, praesentium maxime excepturi similique eum expedita molestias corporis vel amet? Quas.
     </p>
 
-    <!--FORMULARIO-->
-    <form id="formulario">
+    <!--FORMULARIO--form--label--input-->
+    <form id="formulario" method="post" action="" enctype="multipart/form-data">
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
 
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+
+        <textarea name="complete" id="complete"></textarea>
+
+        <!--Radio-- label --input-->
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" id="sexo" value="masculino">Masculino
+        <input type="radio" name="sexo" id="sexo" value="femenino">Femenino
+        <input type="radio" name="sexo" id="sexo" value="otros">otros
+
+        <!--de preseleccion -- label-- select-- option-->
+
+        <label for="pais">Paises</label>
+        
+        <select name="pais" id="pais">
+        
+        <option value="argentina">Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="chile">Chile</option>
+        <option value="uruguay">Uruguay</option>
+
+        </select>
     </form>
 
+    <br>
+    <br>
+    <br>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <label for="formulario interno">Formulario interno</label>
+            <input type="text" name="fomulario interno" id="formulario interno">
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <!--TABLAS -- table -- thead-- tbody -- tr-- th--td-->
+    <table>
+        <thead>
+            <tr>
+                <th>Talle</th>
+                <th>Prenda</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
     <footer id="footer">mail: fer84_circus@hotmail.com</footer>
 </body>
 
