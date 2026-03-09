@@ -4,58 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica de Desarrolo web</title>
+    <title>Practica de Desarrolo web - clases con humberto y 2do curso</title>
 
     <!--FAVICON-->
-    <link rel="shortcup icon" href="./assets/images/icons8-favicon-94.png" type="image/x-icon">
+    <link rel="shortcup icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <h1>Clase 2 y 3</h1>
+    <header>
+        <h1>Pagina principal - Modelo</h1>
+        <p>En esta pagina pongo en practica a modo de <strong>ejemplo</strong> lo que voy aprendiendo y por sobre todo
+            voy <em>aplicando</em>,que es la base del conocimiento</p>
 
-    <h2>Enlaces</h2>
-   
-    <!--LISTAS Y ENLACES-->
-    <ol>
-        <li>Lista 1</li>
-        <li>Lista 2</li>
-        <li>Lista 3</li>
-    </ol>
+        <nav> <!-- Barra de navegacion - (listas, enlaces internos, relativos y absolutos)-->
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dMWZ3exnBy8" target="_blank">Musica para estudiar</a></li>
+                <li><a href="./pages/clase 2 y 3.html" target="_blank">Clase 2 y 3 mas practica del 2do curso</a></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
 
-    <ul>
-        <li><a href="./pages/contacto.html">Contacto</a></li>
-        <li><a href="./pages/nosotros.html">Nosotros</a></li>
-        <li><a href="./pages/servicios.html">Servicios</a></li>
-        <li><a href="./pages/contacto.html#formulario-contacto">Formulario de contacto</a></li>
-    </ul>
-
-
-    <!--ENLACES-->
-
-    <!--enlace interno-->
-    <a href="#footer">Al pie de pagina</a>
-
-    <!--enlace relativo-->
-    <a href="./pages/contacto.html" target="_blank">Contactos</a>
-
-    <!--enlace absoluto-->
-    <a href="https://www.youtube.com/watch?v=c7ravS5Fdh0" target="_blank">Amir la rompe con la maddox</a>
-
-    <!--IMAGEN-->
-    <img src="./assets/images/BEYDXCT75VFPJLM7NRJ3I2DTKY.avif" alt="imagen">
-
-    <a href="#formulario">Al formulario de abajo</a>
+    
 
     <!-- IFRAME-->
-    <iframe 
-    width="1335" 
-    height="751" 
-    src="https://www.youtube.com/embed/554x_QbtBGU"
-    title="Buscar trabajo, Freelance o EMPRENDER con Programación" 
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
+    <iframe width="1335" height="751" src="https://www.youtube.com/embed/554x_QbtBGU"
+        title="Buscar trabajo, Freelance o EMPRENDER con Programación" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
     </iframe>
 
     <!--TEXTO-->
@@ -199,7 +175,7 @@
 
     <!--FORMULARIO--form--label--input-->
     <form id="formulario" method="post" action="" enctype="multipart/form-data">
-        
+
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
 
@@ -217,13 +193,13 @@
         <!--de preseleccion -- label-- select-- option-->
 
         <label for="pais">Paises</label>
-        
+
         <select name="pais" id="pais">
-        
-        <option value="argentina">Argentina</option>
-        <option value="brasil">Brasil</option>
-        <option value="chile">Chile</option>
-        <option value="uruguay">Uruguay</option>
+
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="uruguay">Uruguay</option>
 
         </select>
     </form>
@@ -280,7 +256,7 @@
             </tr>
         </tbody>
     </table>
-    
+
     <br>
     <br>
     <br>
