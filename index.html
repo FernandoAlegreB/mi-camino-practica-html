@@ -197,10 +197,94 @@
         dolores natus beatae nam, praesentium maxime excepturi similique eum expedita molestias corporis vel amet? Quas.
     </p>
 
-    <!--FORMULARIO-->
-    <form id="formulario">
+    <!--FORMULARIO--form--label--input-->
+    <form id="formulario" method="post" action="" enctype="multipart/form-data">
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
 
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+
+        <textarea name="complete" id="complete"></textarea>
+
+        <!--Radio-- label --input-->
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" id="sexo" value="masculino">Masculino
+        <input type="radio" name="sexo" id="sexo" value="femenino">Femenino
+        <input type="radio" name="sexo" id="sexo" value="otros">otros
+
+        <!--de preseleccion -- label-- select-- option-->
+
+        <label for="pais">Paises</label>
+        
+        <select name="pais" id="pais">
+        
+        <option value="argentina">Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="chile">Chile</option>
+        <option value="uruguay">Uruguay</option>
+
+        </select>
     </form>
+
+    <br>
+    <br>
+    <br>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <label for="formulario interno">Formulario interno</label>
+            <input type="text" name="fomulario interno" id="formulario interno">
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <!--TABLAS -- table -- thead-- tbody -- tr-- th--td-->
+    <table>
+        <thead> <!--encabezado-->
+            <tr>
+                <th>Talle</th>
+                <th>Prenda</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody> <!--cuerpo, resto de la tabla-->
+            <tr> <!--fila 1-->
+                <td>L</td>
+                <td>Remera</td>
+                <td>30</td>
+                <td>2</td>
+            </tr>
+            <tr> <!--fila 2-->
+                <td>XL</td>
+                <td>Pantalon</td>
+                <td>60</td>
+                <td>5</td>
+            </tr>
+            <tr> <!--fila 3-->
+                <td>M</td>
+                <td>camisa</td>
+                <td>70</td>
+                <td>2</td>
+            </tr>
+            <tr> <!--fila 4-->
+                <td>S</td>
+                <td>Calzon</td>
+                <td>5.5</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+    <br>
+    <br>
+
 
     <footer id="footer">mail: fer84_circus@hotmail.com</footer>
 </body>
